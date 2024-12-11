@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff; /* Blue color for header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-brand span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000; /* Yellow text for better contrast */
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffdd57; /* Yellow highlight on hover */
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    margin-top: 5rem; /* Adjust for fixed navbar */
+}
+
+.hero-tagline h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-tagline p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Tentang Section */
+#about-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+#about-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+#about-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3; /* Darker blue for footer */
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
